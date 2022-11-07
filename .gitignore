@@ -1,0 +1,5 @@
+.nextflow**
+work/
+COMPASS_out/
+generate/
+*snakemake.log
