@@ -3,7 +3,7 @@ CXXFLAGS = -std=c++11 -O2
 
 
 COMPASS: COMPASS.o Scores.o Node.o Tree.o Inference.o input.o
-	${CXX} ${CXXFLAGS} -fopenmp -o COMPASS COMPASS.o Scores.o Node.o Tree.o Inference.o input.o
+	${CXX} ${CXXFLAGS} -fopenmp -o PHYLOGENY COMPASS.o Scores.o Node.o Tree.o Inference.o input.o
 
 
 COMPASS.o: COMPASS.cpp Inference.h Tree.h input.h Scores.h Structures.h
