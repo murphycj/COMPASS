@@ -11,6 +11,6 @@ COPY . .
 
 # Install COMPASS
 RUN make
-RUN cp COMPASS /usr/local/bin/
+RUN cp PHYLOGENY /usr/local/bin/
 
 WORKDIR /data/
